@@ -34,5 +34,5 @@ def create_user(user: User, db: Session = Depends(get_db)):
 
 @app.get('/')
 def getuser(user: User, db: Session = Depends(get_db)):
-    return db.query(models.UserModel).all()
+    return 'ok'
 
