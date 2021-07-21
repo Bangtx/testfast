@@ -28,6 +28,6 @@ def create_user(user: User, db: Session = Depends(get_db)):
 
 
 @app.get('/')
-def getuser(user: User, db: Session = Depends(get_db)):
-    return 'ok'
+def getuser():
+    return "ok"
 
