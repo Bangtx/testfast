@@ -1,6 +1,4 @@
 from fastapi import FastAPI, Depends
-from typing import Optional, re
-from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
 import models
